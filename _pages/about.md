@@ -9,9 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Houston, TX</p>
-    <p>jm166@rice.edu</p>
-    <p>346-303-5953</p>
+    <p>Email: jm166@rice.edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
