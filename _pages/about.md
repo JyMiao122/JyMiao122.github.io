@@ -2,15 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Candidate in Electrical and Computer Engineering at Rice University
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
+    <p>Houston, TX</p>
     <p>jm166@rice.edu</p>
-    <p>3463035953</p>
+    <p>346-303-5953</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
