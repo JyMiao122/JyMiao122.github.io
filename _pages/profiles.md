@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: About me
 nav: true
 nav_order: 7
 
@@ -14,6 +14,6 @@ profiles:
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>jm166@rice.edu</p>
+      <p>miaoxiaosu122@gmail.com</p>
       <p>3463035953</p>
 ---
