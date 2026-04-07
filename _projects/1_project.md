@@ -22,10 +22,10 @@ In this project, I worked on the multiview imaging framework, reconstruction str
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Multiview_setup.pdf" title="Multiview setup" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Multiview_setup.jpeg" title="Multiview setup" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Multiview_example.pdf" title="Multiview example" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Multiview_example.jpeg" title="Multiview example" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
