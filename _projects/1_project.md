@@ -1,81 +1,56 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Multiview Linear-Array PACT
+description: Improving 3D photoacoustic imaging with multiview acquisition and reconstruction
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project focuses on improving the three-dimensional imaging performance of linear-array photoacoustic computed tomography (PACT). Linear-array systems are widely used because they are compact, practical, and compatible with handheld imaging, but they often suffer from poor resolution in the elevational direction. This anisotropic resolution limits the quality of 3D visualization and makes it difficult to accurately recover fine structures.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+To address this challenge, I developed a **multiview linear-array PACT (MvLPACT)** framework that combines data acquired from multiple viewing angles and reconstructs the final volume using a **multiview FISTA-based deconvolution method**. By integrating complementary information from different views, this approach improves volumetric image quality and substantially enhances elevational resolution compared with conventional single-view imaging.
+
+I validated this framework through both phantom studies and in vivo human imaging experiments. Overall, this work provides a practical way to extend the capabilities of linear-array photoacoustic systems while preserving their accessibility and flexibility.
+
+## My Contribution
+
+In this project, I worked on the development of the multiview imaging framework, reconstruction strategy, experimental design, and validation. This included building the multiview acquisition pipeline, implementing the reconstruction algorithm, and evaluating performance through quantitative and experimental comparisons. The goal was to create a practical method for achieving higher-quality 3D photoacoustic imaging without relying on more complex or less accessible imaging geometries.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project1_1.jpg" title="MvLPACT system overview" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project1_2.jpg" title="Multiview scanning setup" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project1_3.jpg" title="In vivo imaging demonstration" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Representative views of the multiview linear-array photoacoustic imaging system, acquisition setup, and experimental demonstration.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Why It Matters
+
+A major challenge in linear-array photoacoustic tomography is that image resolution is not uniform in all three dimensions. In particular, the relatively poor elevational resolution can blur structures and reduce the accuracy of 3D visualization. This project shows that multiview acquisition, combined with physics-guided reconstruction, can help overcome this limitation and move linear-array PACT closer to robust high-quality volumetric imaging for biomedical applications.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project1_4.jpg" title="Resolution improvement results" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project1_5.jpg" title="3D reconstruction example" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Example reconstruction results and quantitative comparisons showing improved elevational resolution with the proposed multiview framework.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Outcome
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This work demonstrates a practical strategy for improving the 3D imaging capability of linear-array photoacoustic systems. By combining multiview acquisition with model-based reconstruction, the framework improves volumetric image fidelity while maintaining the simplicity and usability of linear-array imaging platforms.
