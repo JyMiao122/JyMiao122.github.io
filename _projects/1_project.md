@@ -10,7 +10,7 @@ related_publications: true
 
 ## Project Overview
 
-This project focuses on improving the three-dimensional imaging performance of linear-array photoacoustic computed tomography (PACT). It is based on our published work in *Biomedical Optics Express* {% cite miao2025multiview %}. Linear-array systems are widely used because they are compact, practical, and compatible with handheld imaging, but they often suffer from poor resolution in the elevational direction. This limitation reduces the quality of 3D visualization and makes it difficult to accurately recover fine structures.
+This project focuses on improving the three-dimensional imaging performance of linear-array photoacoustic computed tomography (PACT). It is based on our published work in *Biomedical Optics Express* {% cite miao2025mvlpact %}. Linear-array systems are widely used because they are compact, practical, and compatible with handheld imaging, but they often suffer from poor resolution in the elevational direction. This limitation reduces the quality of 3D visualization and makes it difficult to accurately recover fine structures.
 
 To address this challenge, I developed a **multiview linear-array PACT (MvLPACT)** framework that combines data acquired from multiple viewing angles and reconstructs the final volume using a **multiview FISTA-based deconvolution method**. By integrating complementary information from different views, this approach improves volumetric image quality and substantially enhances elevational resolution compared with conventional single-view imaging.
 
