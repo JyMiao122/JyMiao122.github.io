@@ -21,7 +21,7 @@ ninja.data = [{
           description: "Selected Projects",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Projects/";
+            window.location.href = "/projects/";
           },
         },{id: "post-a-post-with-plotly-js",
         
