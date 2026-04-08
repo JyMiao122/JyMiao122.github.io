@@ -25,6 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am advised by Prof. Lei S. Li and received my M.S. in Electrical and Computer Engineering from Rice University. Prior to Rice, I earned my B.Sc. in Electrical and Electronic Engineering through the University of Glasgow and the University of Electronic Science and Technology of China. My research focuses on clinically translatable photoacoustic imaging, with broader interests in ultrasound imaging, computational image reconstruction, optical system development, and AI for medical imaging. I am interested in developing advanced biomedical imaging technologies that bridge engineering innovation and clinical impact.
+I am advised by Prof. Lei S. Li and received my M.S. in Electrical and Computer Engineering from Rice University. Prior to Rice, I earned my B.Sc. in Electrical and Electronic Engineering through the University of Glasgow and the University of Electronic Science and Technology of China. My research focuses on clinically translatable photoacoustic imaging, with broader interests in ultrasound imaging, computational image reconstruction, optical system development, and AI for medical imaging. I am interested in developing advanced biomedical imaging technologies that bridge engineering innovation and clinical impact. Outside of research, I enjoy yoga, fitness, tennis, and traveling.
 
 [Google Scholar](https://scholar.google.com/citations?user=gFnoL2EAAAAJ&hl=zh-CN) | [LinkedIn](https://www.linkedin.com/in/jingyimiao/)
