@@ -404,7 +404,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-multiview-linear-array-pact",
           title: 'Multiview Linear-Array PACT',
-          description: "Improving 3D photoacoustic imaging with multiview acquisition and reconstruction",
+          description: "Improving 3D photoacoustic imaging with multiview acquisition and deconvolution reconstruction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-model-based-deep-learning-for-3d-linear-array-pact",
