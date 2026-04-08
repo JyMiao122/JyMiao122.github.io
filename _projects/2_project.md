@@ -21,15 +21,21 @@ I validated this framework using simulation, phantom, and in vivo human imaging 
 In this project, I worked on the model design, training strategy, reconstruction framework, and experimental validation. This included developing the multiview deep learning architecture, designing the training pipeline, integrating model-based reconstruction with learnable components, and evaluating performance across synthetic and experimental datasets. The goal was to create a practical and scalable method for high-resolution 3D photoacoustic imaging.
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Multiview_DL_network.png" title="MV-FISTA-Net architecture" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+</div>
+<div class="caption">
+    Overview of the MV-FISTA-Net framework for multiview photoacoustic reconstruction.
+</div>
+
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Multiview_DL_example.png" title="Representative imaging result" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: overview of the MV-FISTA-Net framework for multiview photoacoustic reconstruction. Right: representative imaging result showing improved vascular visualization with the proposed deep learning method.
+    Representative imaging result showing improved vascular visualization with the proposed deep learning method.
 </div>
 
 ## Why It Matters
