@@ -407,9 +407,9 @@ ninja.data = [{
           description: "Improving 3D photoacoustic imaging with multiview acquisition and reconstruction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-model-based-deep-learning-for-3d-linear-array-pact",
+          title: 'Model-Based Deep Learning for 3D Linear-Array PACT',
+          description: "Improving 3D photoacoustic imaging with multiview acquisition and deep learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
