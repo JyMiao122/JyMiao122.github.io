@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Model-Based Deep Learning for 3D Linear-Array PACT
+title: Model-Based Deep Learning for 3D Linear-Array PACT with Isotropic Spatial Resolutions
 description: Improving 3D photoacoustic imaging with multiview acquisition and deep learning reconstruction
 img: assets/img/Multiview_DL_network.png
 importance: 2
