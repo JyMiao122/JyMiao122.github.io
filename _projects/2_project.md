@@ -18,7 +18,7 @@ A key component of this work is the multiview deep learning reconstruction frame
   </div>
 </div>
 <div class="caption">
-  Figure 2. Overview of the MV-FISTA-Net framework for multiview photoacoustic reconstruction.
+  Overview of the MV-FISTA-Net framework for multiview photoacoustic reconstruction.
 </div>
 
 To improve generalization, we employed a two-stage training strategy. The model was first pretrained on synthetic datasets to learn the deblurring and reconstruction task under fully supervised conditions, and was then fine-tuned using a mixture of synthetic and experimental data to better adapt to real imaging conditions. This approach enables the network to preserve high-resolution priors while accounting for system-specific blurring and experimental variability.
@@ -31,7 +31,7 @@ The proposed method was validated on simulation, phantom, and in vivo human data
   </div>
 </div>
 <div class="caption">
-  Figure 9. Representative in vivo human imaging results showing improved vascular delineation with MV-FISTA-Net.
+  Representative in vivo human imaging results showing improved vascular delineation with MV-FISTA-Net.
 </div>
 
 Overall, this project demonstrates a scalable strategy for achieving near-isotropic volumetric imaging in linear-array PACT by combining multiview data acquisition with model-based deep learning. It highlights the potential of computational imaging to overcome intrinsic hardware limitations and improve the clinical utility of photoacoustic tomography.
