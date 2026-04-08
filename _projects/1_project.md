@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multiview Linear-Array PACT
-description: Improving 3D photoacoustic imaging with multiview acquisition and reconstruction
+description: Improving 3D photoacoustic imaging with multiview acquisition and deconvolution reconstruction
 img: assets/img/Multiview_example.jpeg
 importance: 1
 category: work
