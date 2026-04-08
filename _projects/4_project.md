@@ -10,7 +10,7 @@ related_publications: true
 
 ## Project Overview
 
-This project investigates the first-in-human technical feasibility of intraoperative photoacoustic and ultrasound (PA/US) imaging for human brain tumor surgery. Using a handheld LED-based PA/US system and low-dose indocyanine green (ICG), we demonstrated depth-resolved visualization of endogenous vasculature and ICG-enhanced contrast during surgery. The study included imaging at the cortical surface, in excised tumor specimens, and within the surgical cavity, highlighting the potential of PA/US as a clinically translatable adjunct for neurosurgical guidance.
+This project investigates the first-in-human technical feasibility of intraoperative photoacoustic and ultrasound (PA/US) imaging for human brain tumor surgery. It is based on our work in *Neurosurgery* {% cite miao_underreview_brain %} under review. Using a handheld LED-based PA/US system and low-dose indocyanine green (ICG), we demonstrated depth-resolved visualization of endogenous vasculature and ICG-enhanced contrast during surgery. The study included imaging at the cortical surface, in excised tumor specimens, and within the surgical cavity, highlighting the potential of PA/US as a clinically translatable adjunct for neurosurgical guidance.
 
 A central goal of this work is to provide surgeons with depth-resolved structural and molecular information that is not available through surface-limited optical imaging alone. By combining endogenous vascular photoacoustic imaging at 850 nm with differential ICG-enhanced imaging at 820/940 nm, the system offers complementary contrast beyond conventional intraoperative ultrasound and fluorescence imaging.
 
