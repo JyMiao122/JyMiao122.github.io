@@ -407,8 +407,8 @@ ninja.data = [{
           description: "Improving 3D photoacoustic imaging with multiview acquisition and deconvolution reconstruction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-model-based-deep-learning-for-3d-linear-array-pact-with-isotropic-spatial-resolutions",
-          title: 'Model-Based Deep Learning for 3D Linear-Array PACT with Isotropic Spatial Resolutions',
+            },},{id: "projects-model-based-deep-learning-for-3d-linear-array-pact",
+          title: 'Model-Based Deep Learning for 3D Linear-Array PACT',
           description: "Improving 3D photoacoustic imaging with multiview acquisition and deep learning reconstruction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
@@ -417,8 +417,8 @@ ninja.data = [{
           description: "Real-time photoacoustic and ultrasound imaging for biopsy clip detection in breast surgery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-intraoperative-photoacoustic-and-ultrasound-imaging-of-human-brain-tumors",
-          title: 'Intraoperative Photoacoustic and Ultrasound Imaging of Human Brain Tumors',
+            },},{id: "projects-intraoperative-photoacoustic-imaging-of-human-brain-tumors",
+          title: 'Intraoperative Photoacoustic Imaging of Human Brain Tumors',
           description: "First-in-human handheld PA/US imaging with ICG-enhanced contrast for neurosurgical guidance",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
