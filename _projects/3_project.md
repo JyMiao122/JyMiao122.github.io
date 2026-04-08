@@ -5,7 +5,7 @@ description: Real-time photoacoustic and ultrasound imaging for biopsy clip dete
 img: assets/img/Clip_f1.png
 importance: 3
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ## Project Overview
