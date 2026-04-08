@@ -409,7 +409,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-model-based-deep-learning-for-3d-linear-array-pact",
           title: 'Model-Based Deep Learning for 3D Linear-Array PACT',
-          description: "Improving 3D photoacoustic imaging with multiview acquisition and deep learning",
+          description: "Improving 3D photoacoustic imaging with multiview acquisition and deep learning reconstruction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-pausiv-for-breast-cancer-localization",
