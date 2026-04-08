@@ -5,7 +5,7 @@ description: Improving 3D photoacoustic imaging with multiview acquisition and d
 img: assets/img/Multiview_DL_network.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 This project focuses on improving the three-dimensional imaging performance of linear-array photoacoustic computed tomography (PACT), which commonly suffers from poor elevational resolution compared with its axial and lateral resolution. To address this limitation, we developed **MV-FISTA-Net**, a model-based deep learning framework that combines multiview acquisition with learnable iterative reconstruction. By integrating complementary information from multiple scanning views, this method enhances spatial resolution and improves the fidelity of volumetric photoacoustic imaging.
