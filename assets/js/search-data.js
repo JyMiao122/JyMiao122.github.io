@@ -417,9 +417,9 @@ ninja.data = [{
           description: "Real-time photoacoustic and ultrasound imaging for biopsy clip detection in breast surgery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-intraoperative-photoacoustic-imaging-of-human-brain-tumors",
+          title: 'Intraoperative Photoacoustic Imaging of Human Brain Tumors',
+          description: "First-in-human handheld PA/US imaging with ICG-enhanced contrast for neurosurgical guidance",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
