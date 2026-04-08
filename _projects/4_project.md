@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Intraoperative Photoacoustic Imaging of Human Brain Tumors
+title: Intraoperative Photoacoustic and Ultrasound Imaging of Human Brain Tumors
 description: First-in-human handheld PA/US imaging with ICG-enhanced contrast for neurosurgical guidance
 img: assets/img/Neuro_f1.png
 importance: 4
