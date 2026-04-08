@@ -1,6 +1,6 @@
 ---
-layout: About
-title: About
+layout: about
+title: about
 permalink: /
 subtitle: Ph.D. Candidate in Electrical and Computer Engineering at Rice University
 
