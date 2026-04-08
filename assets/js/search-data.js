@@ -17,11 +17,11 @@ ninja.data = [{
             window.location.href = "/Publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Selected Projects",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/Projects/";
           },
         },{id: "post-a-post-with-plotly-js",
         
