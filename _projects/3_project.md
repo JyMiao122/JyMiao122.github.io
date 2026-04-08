@@ -21,29 +21,41 @@ I validated this system through both ex vivo breast specimen studies and in vivo
 In this project, I worked on the imaging platform development, experimental design, image reconstruction, and deep-learning-based detection framework. This included optimizing the photoacoustic/ultrasound imaging system for clip visualization, designing and conducting ex vivo and in vivo validation studies, and developing a real-time clip localization model that incorporated both imaging features and clinical prior information. The goal was to create a practical platform for reliable biopsy clip detection during breast imaging and surgical guidance.
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Clip_f1.png" title="Ex vivo biopsy clip visualization" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+</div>
+<div class="caption">
+    Representative ex vivo breast specimen with corresponding biopsy clip localization result.
+</div>
+
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Clip_f2.png" title="Clip detection pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: representative ex vivo breast specimen with corresponding biopsy clip localization result. Right: overview of the deep-learning-based pipeline for biopsy clip detection in photoacoustic images.
+    Overview of the deep-learning-based pipeline for biopsy clip detection in photoacoustic images.
 </div>
 
 The system was first evaluated on ex vivo breast tissue specimens obtained in the operating room, where X-ray imaging served as the ground truth for clip location before photoacoustic imaging and reconstruction. PAUSIV demonstrated strong clip conspicuity, with clip signals substantially exceeding background tissue signals and providing markedly higher contrast than ultrasound alone. To support translation into clinical use, the imaging framework was further extended with a deep-learning-based clip detection model trained using ex vivo and in vivo data.
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Clip_f3.png" title="In vivo PAUSIV validation" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+</div>
+<div class="caption">
+    Representative in vivo breast imaging results showing PA, US, and PA/US overlay images for biopsy clip localization.
+</div>
+
+<div class="row">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Clip_f4.png" title="Real-time in vivo clip detection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: representative in vivo breast imaging results showing PA, US, and PA/US overlay images for biopsy clip localization. Right: real-time in vivo clip detection results showing stable localization across consecutive photoacoustic frames.
+    Real-time in vivo clip detection results showing stable localization across consecutive photoacoustic frames.
 </div>
 
 ## Why It Matters
