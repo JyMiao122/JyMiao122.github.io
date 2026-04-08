@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: publications
 description: Publications in medical imaging and engineering innovation
 nav: true
 nav_order: 2
