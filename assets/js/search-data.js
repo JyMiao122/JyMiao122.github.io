@@ -422,9 +422,9 @@ ninja.data = [{
           description: "Integrated linear-array transducer, fiber, and optics design for future clinical photoacoustic spine imaging",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-transducer-and-optics-design-for-linear-array-spine-imaging",
+          title: 'Transducer and Optics Design for Linear-Array Spine Imaging',
+          description: "Integrated linear-array transducer, fiber, and optics design for future clinical photoacoustic spine imaging",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
