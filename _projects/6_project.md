@@ -1,80 +1,66 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Molecular Imaging with Animals
+description: Fluorescence-based vascular and lymphatic imaging with future photoacoustic translation
+img: assets/img/lymphatic_labeling.png
+importance: 6
+category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project focuses on molecular imaging in small-animal models, with my current work centered primarily on **fluorescence imaging** for visualizing biological structure and function with enhanced contrast and specificity. By combining tailored contrast agents with optical imaging methods, this work explores how molecular labeling can reveal vascular and lymphatic features that are difficult to resolve using conventional structural imaging alone.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The project includes two complementary directions. The first uses flowing dye-labeled microdroplets to achieve superresolution fluorescence imaging of fine vascular structures in the mouse brain by localizing individual droplets over time. The second uses a customized dye formulation to label lymphatic vessels and nodes in mice for high-contrast fluorescence imaging of the lymphatic system. While the present emphasis is on fluorescence imaging, these studies also establish a strong foundation for future extension to photoacoustic imaging.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Together, these studies demonstrate how molecular contrast and fluorescence imaging can provide high-resolution and biologically meaningful visualization in preclinical animal models, while also motivating future multimodal translation into photoacoustic imaging.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## What I Did
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In this project, I worked on molecular imaging study design, contrast-agent-based imaging strategy, fluorescence data acquisition, and image analysis. For the superresolution direction, I performed droplet-based fluorescence imaging and analyzed time-varying signals to localize individual flowing droplets and reconstruct fine vascular features beyond conventional resolution limits. For the lymphatic imaging direction, I helped develop and apply a customized dye formulation for high-contrast labeling of lymphatic structures and evaluated its performance in small-animal imaging experiments.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+This work integrates molecular contrast design with fluorescence imaging protocol development and interpretation, with future plans to expand these approaches into photoacoustic imaging for deeper and more functionally informative visualization.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
+<div class="row justify-content-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <video controls autoplay loop muted playsinline class="img-fluid rounded z-depth-1">
+      <source src="{{ '/assets/img/droplet_brain.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
-```
+<div class="caption">
+    Representative video of dye-labeled microdroplets flowing through the mouse brain vasculature, illustrating the dynamic signals used for superresolution fluorescence imaging.
+</div>
 
-{% endraw %}
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-4 mt-md-0">
+        {% include figure.liquid path="assets/img/lymph.png" title="Lymphatic imaging with customized dye agent" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Representative fluorescence image showing lymphatic vessels and nodes labeled using a customized dye formulation for lymphatic imaging.
+</div>
+
+## Superresolution Imaging with Flowing Droplets
+
+A major challenge in fluorescence vascular imaging is that fine microvascular structures can remain difficult to resolve because of diffraction and system resolution limits. In this part of the project, dye-labeled microdroplets were introduced as dynamic point-like contrast agents that flow through blood vessels and generate localized fluorescence signals over time. By identifying and localizing the centers of individual droplets across frames, it becomes possible to reconstruct vascular features with finer spatial detail than is achievable from a single conventional image.
+
+This approach enables superresolution imaging by converting dynamic molecular contrast into spatial localization information. It provides a way to visualize fine vascular architecture in the mouse brain and demonstrates how time-resolved fluorescence imaging can be used to enhance effective image resolution. This framework may also support future translation into photoacoustic superresolution imaging.
+
+## Lymphatic Imaging with Customized Dye Agents
+
+The second direction of this project focuses on fluorescence imaging of the lymphatic system using a customized dye formulation designed for strong labeling contrast. After administration in mice, the dye enables high-contrast visualization of lymphatic vessels and nodes, allowing their morphology and distribution to be imaged more clearly than with label-free approaches.
+
+This work supports the study of lymphatic structure and function in small-animal models and provides a platform for investigating disease-related lymphatic changes and progression. In the future, this fluorescence-guided contrast strategy may also be adapted for photoacoustic imaging to provide complementary depth-resolved information.
+
+## Why It Matters
+
+Fluorescence molecular imaging plays an important role in expanding what can be measured beyond anatomy alone. In vascular imaging, dynamic fluorescent probes can help surpass conventional resolution limits and reveal finer structural features. In lymphatic imaging, tailored dye agents can improve visualization of biologically important pathways that are otherwise difficult to detect.
+
+This project shows how fluorescence imaging and molecular contrast agents can support both high-resolution vascular imaging and targeted lymphatic visualization in preclinical research. More broadly, it establishes an experimental and contrast-agent framework that can be extended in the future toward multimodal photoacoustic and fluorescence imaging.
+
+## Outcome
+
+This project established two complementary fluorescence-based molecular imaging strategies in animal models. The first demonstrated superresolution imaging of fine vascular structures through localization of flowing dye-labeled microdroplets in the mouse brain. The second demonstrated high-contrast lymphatic imaging using a customized dye agent to label lymphatic vessels and nodes in mice. Together, these studies highlight the versatility of fluorescence molecular imaging for resolving biological structure and function, while laying the groundwork for future photoacoustic applications.
