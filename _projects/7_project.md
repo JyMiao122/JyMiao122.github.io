@@ -2,7 +2,7 @@
 layout: page
 title: High-Resolution Photoacoustic Microscopy System Development
 description: Optical, hardware, and control development of a high-resolution PAM platform with ongoing phantom and animal imaging
-img: assets/img/PAM_system.png
+img: assets/img/hardware.png
 importance: 7
 category: work
 related_publications: false
