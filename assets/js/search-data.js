@@ -402,8 +402,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-multiview-linear-array-pact",
-          title: 'Multiview Linear-Array PACT',
+          section: "News",},{id: "projects-multiview-linear-array-pact-system",
+          title: 'Multiview Linear-Array PACT System',
           description: "Improving 3D photoacoustic imaging with multiview acquisition and deconvolution reconstruction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
