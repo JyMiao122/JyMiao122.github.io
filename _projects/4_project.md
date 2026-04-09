@@ -1,78 +1,50 @@
 ---
 layout: page
-title: Intraoperative Photoacoustic and Ultrasound Imaging of Human Brain Tumors
-description: First-in-human handheld PA/US imaging with ICG-enhanced contrast for neurosurgical guidance
-img: assets/img/Neuro_f1.png
-importance: 4
+title: Transducer and Optics Design for Linear-Array Spine Imaging
+description: Integrated linear-array transducer, fiber, and optics design for future clinical photoacoustic spine imaging
+img: assets/img/spine_design.png
+importance: 5
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ## Project Overview
 
-This project investigates the first-in-human technical feasibility of intraoperative photoacoustic and ultrasound (PA/US) imaging for human brain tumor surgery. It is based on our work currently under review in *Neurosurgery* {% cite miao_underreview_brain %}. Using a handheld LED-based PA/US system and low-dose indocyanine green (ICG), we demonstrated depth-resolved visualization of endogenous vasculature and ICG-enhanced contrast during surgery. The study included imaging at the cortical surface, in excised tumor specimens, and within the surgical cavity, highlighting the potential of PA/US as a clinically translatable adjunct for neurosurgical guidance.
+This project focuses on the integrated design of a linear-array transducer, optical illumination module, and mechanical package for future clinical photoacoustic spine imaging. The goal is to develop a compact and clinically practical probe architecture that combines efficient light delivery, acoustic detection, and mechanically constrained packaging in a single platform.
 
-A central goal of this work is to provide surgeons with depth-resolved structural and molecular information that is not available through surface-limited optical imaging alone. By combining endogenous vascular photoacoustic imaging at 850 nm with differential ICG-enhanced imaging at 820/940 nm, the system offers complementary contrast beyond conventional intraoperative ultrasound and fluorescence imaging.
+A central design requirement of this work is to achieve effective optical illumination while maintaining compatibility with a required transducer focal depth of 10 mm. To address this, I designed a 3D fiber–optics–transducer package in which the optical and acoustic subsystems were co-optimized rather than treated independently. The design considered illumination efficiency, light overlap, probe footprint, bottom contact area, and manufacturable packaging geometry for eventual translational use.
 
-Overall, this project demonstrates the feasibility of integrating photoacoustic molecular imaging into neurosurgical workflow using a handheld and clinically practical imaging platform.
+Overall, this project establishes an engineering framework for integrating optics and ultrasound hardware into a compact linear-array photoacoustic probe suitable for future spine-related clinical applications.
 
 ## What I Did
 
-In this project, I worked on the imaging study design, intraoperative imaging workflow, multimodal imaging strategy, and data interpretation. This included developing and applying the endogenous and exogenous photoacoustic imaging protocols, performing co-registered PA/US imaging during surgery, and evaluating imaging performance across the cortex, ex vivo tumor specimens, and surgical cavity. The goal was to assess whether handheld intraoperative PA/US imaging could provide meaningful structural and molecular information during human brain tumor resection.
+In this project, I designed the optical and acoustic architecture of the probe, including the geometric arrangement of the linear-array transducer, optical fibers, prism-based illumination path, and outer package. I used **Zemax** to simulate optical beam propagation and evaluate how fiber position, prism geometry, and package dimensions affect light steering and overlap in the target imaging region.
 
-<div class="row">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Neuro_f1.png" title="Conceptual overview of intraoperative PA/US imaging" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Conceptual overview of intraoperative PA/US imaging for neurosurgical tumor guidance, illustrating the motivation, imaging principle, surgical workflow, and translational significance of depth-resolved molecular imaging.
-</div>
-
-<div class="row">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Neuro_f2.png" title="Clinical PAI system and differential imaging principle" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Clinical handheld PA/US imaging system and ICG-specific differential imaging principle.
-</div>
-
-<div class="row">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Neuro_f3.png" title="First-in-human intraoperative use during glioblastoma surgery" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    First-in-human intraoperative use of the PA/US probe during glioblastoma surgery.
-</div>
-
-Representative intraoperative imaging results further demonstrated the ability of the system to visualize vascular and ICG-enhanced contrast in clinically relevant settings. Imaging was performed across multiple surgical contexts, including exposed cortex, excised tumor tissue, and the resection cavity, showing the flexibility of the handheld PA/US platform during real surgical procedures.
+I also analyzed packaging trade-offs between total probe size and usable bottom contact area, with the goal of maintaining efficient and well-controlled illumination in a compact form factor. This included refining the optical path to avoid undesirable beam behavior such as premature convergence inside the prism or direct light leakage from the bottom surface.
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Neuro_f4.png" title="Probe configuration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/spine_design.png" title="Overall transducer and optics package design" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Representative intraoperative vascular imaging at 850 nm, showing probe configuration.
+    Overall 3D design of the integrated fiber, optics, and linear-array transducer package for future clinical photoacoustic spine imaging.
 </div>
 
-<div class="row">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Neuro_f5.png" title="ICG-enhanced intraoperative PA/US imaging results" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Differential ICG-enhanced PA/US imaging of the cortex, ex vivo tumor specimen, and surgical cavity, demonstrating localized molecular contrast with ultrasound co-registration for structural guidance.
-</div>
+## Design Features
+
+The probe concept integrates fused-input optical fibers with a prism-based illumination module and a linear-array transducer to support efficient photoacoustic excitation and signal detection within a compact housing. The use of fused-input fibers was selected to improve optical throughput and reduce loss, supporting high-energy delivery for photoacoustic imaging.
+
+The optical design was developed to achieve controlled beam overlap within the desired imaging region while satisfying geometric packaging constraints. Fiber placement relative to the prism was tuned to shape the overlap region, and the prism dimensions were evaluated to avoid unfavorable beam behavior such as excessive internal convergence or unintended light escape from the bottom surface. These considerations were balanced against the limited bottom contact area required for practical probe interfacing.
+
+In parallel, the transducer and optical subsystems were designed around a required acoustic focus of 10 mm so that the optical illumination region and acoustic sensitivity region could be better aligned for future imaging performance.
 
 ## Why It Matters
 
-A major challenge in brain tumor surgery is the need for imaging tools that can provide clinically useful information below the tissue surface while remaining compatible with operative workflow. Existing methods such as fluorescence imaging are often limited to surface-weighted contrast, while ultrasound provides structural information but limited molecular specificity. This project shows that photoacoustic imaging can bridge that gap by providing both depth-resolved vascular information and exogenous molecular contrast in a handheld intraoperative format.
+Photoacoustic spine imaging presents a challenging design problem because the probe must simultaneously provide efficient optical illumination, appropriate acoustic focusing, and a physically compact form factor. Unlike benchtop optical layouts, a clinically relevant probe must operate under tight spatial constraints while preserving illumination quality and acoustic sensitivity.
 
-By integrating PA contrast with co-registered ultrasound, this approach may improve tumor visualization and provide surgeons with additional information during resection. It also represents an important step toward clinically practical molecular imaging tools for neurosurgical guidance.
+This project addresses that challenge through integrated co-design of the optics, transducer geometry, and mechanical package. By treating illumination delivery, acoustic focus, and packaging constraints as a unified design problem, this work moves toward a more practical probe architecture for translational linear-array photoacoustic imaging.
 
 ## Outcome
 
-This work demonstrates the first-in-human technical feasibility of handheld intraoperative PA/US imaging for brain tumor surgery. The study showed that the system can provide depth-resolved endogenous and ICG-enhanced contrast across multiple intraoperative scenarios while remaining compatible with standard surgical workflow. Overall, this project highlights the translational potential of photoacoustic imaging as a practical adjunct for improved tumor visualization and image-guided neurosurgery.
+This project established a compact transducer–fiber–optics design framework for future clinical photoacoustic spine imaging. The work defined key geometric and optical trade-offs related to focal depth, beam overlap, prism size, and package dimensions, and used Zemax simulation to guide optical design decisions within a clinically constrained form factor. Overall, it provides a foundation for future prototype fabrication, experimental validation, and eventual translation of linear-array photoacoustic imaging toward spine applications.
