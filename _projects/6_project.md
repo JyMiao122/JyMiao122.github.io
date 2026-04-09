@@ -24,7 +24,7 @@ This work integrates molecular contrast design with fluorescence imaging protoco
 
 <div class="row justify-content-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/droplet_brain.png' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Flowing droplets in mouse brain vasculature">
+    <img src="{{ '/assets/img/droplet_brain.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Flowing droplets in mouse brain vasculature">
   </div>
 </div>
 <div class="caption">
