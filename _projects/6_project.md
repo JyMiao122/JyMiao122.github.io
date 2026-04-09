@@ -2,7 +2,7 @@
 layout: page
 title: Molecular Imaging with Small Animals
 description: Fluorescence-based vascular and lymphatic imaging with future photoacoustic translation
-img: assets/img/lymphatic_labeling.png
+img: assets/img/lymph.png
 importance: 6
 category: work
 related_publications: false
