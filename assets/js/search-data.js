@@ -417,9 +417,9 @@ ninja.data = [{
           description: "Real-time photoacoustic and ultrasound imaging for biopsy clip detection in breast surgery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-intraoperative-photoacoustic-and-ultrasound-imaging-of-human-brain-tumors",
-          title: 'Intraoperative Photoacoustic and Ultrasound Imaging of Human Brain Tumors',
-          description: "First-in-human handheld PA/US imaging with ICG-enhanced contrast for neurosurgical guidance",
+            },},{id: "projects-transducer-and-optics-design-for-linear-array-spine-imaging",
+          title: 'Transducer and Optics Design for Linear-Array Spine Imaging',
+          description: "Integrated linear-array transducer, fiber, and optics design for future clinical photoacoustic spine imaging",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
