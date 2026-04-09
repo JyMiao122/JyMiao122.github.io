@@ -412,8 +412,8 @@ ninja.data = [{
           description: "Improving 3D photoacoustic imaging with multiview acquisition and deep learning reconstruction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-pausiv-for-breast-cancer-localization",
-          title: 'PAUSIV for Breast Cancer Localization',
+            },},{id: "projects-pausiv-for-breast-biopsy-clip-localization",
+          title: 'PAUSIV for Breast Biopsy Clip Localization',
           description: "Real-time photoacoustic and ultrasound imaging for biopsy clip detection in breast surgery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
