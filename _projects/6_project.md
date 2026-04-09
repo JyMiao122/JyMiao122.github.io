@@ -2,7 +2,7 @@
 layout: page
 title: Molecular Imaging with Small Animals
 description: Fluorescence-based vascular and lymphatic imaging with future photoacoustic translation
-img: assets/img/lymph.png
+img: assets/img/Lymph.png
 importance: 6
 category: work
 related_publications: false
@@ -24,19 +24,16 @@ This work integrates molecular contrast design with fluorescence imaging protoco
 
 <div class="row justify-content-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    <video controls autoplay loop muted playsinline class="img-fluid rounded z-depth-1">
-      <source src="{{ '/assets/img/droplet_brain.mp4' | relative_url }}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <img src="{{ '/assets/img/droplet_brain.png' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Flowing droplets in mouse brain vasculature">
   </div>
 </div>
 <div class="caption">
-    Representative video of dye-labeled microdroplets flowing through the mouse brain vasculature, illustrating the dynamic signals used for superresolution fluorescence imaging.
+    Representative fluorescence image of dye-labeled microdroplets in mouse brain vasculature, illustrating the localized signals used for superresolution imaging.
 </div>
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-4 mt-md-0">
-        {% include figure.liquid path="assets/img/lymph.png" title="Lymphatic imaging with customized dye agent" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Lymph.png" title="Lymphatic imaging with customized dye agent" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
