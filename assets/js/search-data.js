@@ -427,8 +427,8 @@ ninja.data = [{
           description: "Integrated linear-array transducer, fiber, and optics design for future clinical photoacoustic spine imaging",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-molecular-imaging-with-animals",
-          title: 'Molecular Imaging with Animals',
+            },},{id: "projects-molecular-imaging-with-small-animals",
+          title: 'Molecular Imaging with Small Animals',
           description: "Fluorescence-based vascular and lymphatic imaging with future photoacoustic translation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
