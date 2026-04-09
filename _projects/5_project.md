@@ -18,7 +18,7 @@ Overall, this project establishes an engineering framework for integrating optic
 
 ## What I Did
 
-In this project, I designed the optical and acoustic architecture of the probe, including the geometric arrangement of the linear-array transducer, optical fibers, prism-based illumination path, and outer package. I used **Zemax** to simulate optical beam propagation and evaluate how fiber position, prism geometry, and package dimensions affect light steering and overlap in the target imaging region.
+In this project, I designed the optical and acoustic architecture of the probe, including the geometric arrangement of the linear-array transducer, optical fibers, prism-based illumination path, and outer package. I used Zemax to simulate optical beam propagation and evaluate how fiber position, prism geometry, and package dimensions affect light steering and overlap in the target imaging region.
 
 I also analyzed packaging trade-offs between total probe size and usable bottom contact area, with the goal of maintaining efficient and well-controlled illumination in a compact form factor. This included refining the optical path to avoid undesirable beam behavior such as premature convergence inside the prism or direct light leakage from the bottom surface.
 
