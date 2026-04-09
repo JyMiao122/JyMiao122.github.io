@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PAUSIV for Breast Cancer Localization
+title: PAUSIV for Breast Biopsy Clip Localization
 description: Real-time photoacoustic and ultrasound imaging for biopsy clip detection in breast surgery
 img: assets/img/Clip_f1.png
 importance: 3
