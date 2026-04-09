@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Selected Recent Projects
+description: 2022-2026
 nav: true
 nav_order: 3
 display_categories: [work]
