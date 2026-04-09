@@ -432,9 +432,9 @@ ninja.data = [{
           description: "Fluorescence-based vascular and lymphatic imaging with future photoacoustic translation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-high-resolution-photoacoustic-microscopy-system-development",
+          title: 'High-Resolution Photoacoustic Microscopy System Development',
+          description: "Optical, hardware, and control development of a high-resolution PAM platform with ongoing phantom and animal imaging",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
